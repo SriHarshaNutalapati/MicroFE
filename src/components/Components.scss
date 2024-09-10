@@ -1,0 +1,35 @@
+@import "../_base";
+
+
+
+.text_primary{
+    @include base-color;
+    @include font-weight-primary;
+}
+
+.text_secondary_700{
+    @include secondary-color;
+    @include font-weight-primary
+}
+
+.text_secondary_500{
+    @include secondary-color;
+    @include font-weight-secondary;
+}
+
+.mp-primary-btn{
+    background-color: $base-color !important;
+    border: $base-color !important;
+    border-radius: 8px;
+    color: #fff;
+    @include font-weight-primary;
+}
+
+.mp-secondary-btn{
+    background-color: #fff !important;
+    border: 1px solid #DDE1E6 !important;
+    border-radius: 8px;
+    @include secondary-color;
+    @include font-weight-primary;
+}
+
